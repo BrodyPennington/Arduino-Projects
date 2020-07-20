@@ -1,0 +1,65 @@
+// Created by Brody Penninton on 7/20/2020 at 12:42 AM
+
+
+int LEDW1 = 13;
+int LEDY1 = 12;
+int LEDY2 = 11;
+int LEDR1 = 10;
+int LEDR2 = 9;
+int LEDG1 = 8;
+int LEDG2 = 7;
+int LEDB1 = 6;
+int LEDB2 = 5;
+
+
+void setup() {
+  pinMode(LEDW1, OUTPUT);
+  pinMode(LEDY1, OUTPUT);
+  pinMode(LEDY2, OUTPUT);
+  pinMode(LEDR1, OUTPUT);
+  pinMode(LEDR2, OUTPUT);
+  pinMode(LEDG1, OUTPUT);
+  pinMode(LEDG2, OUTPUT);
+  pinMode(LEDB1, OUTPUT);
+  pinMode(LEDB2, OUTPUT);
+
+}
+
+void loop() {
+  digitalWrite(LEDW1, HIGH);
+  delay(100);
+  digitalWrite(LEDY1, HIGH);
+  delay(100);
+  digitalWrite(LEDY2, HIGH);
+  delay(100);
+  digitalWrite(LEDR1, HIGH);
+  delay(100);
+  digitalWrite(LEDR2, HIGH);
+  delay(100);
+  digitalWrite(LEDG1, HIGH);
+  delay(100);
+  digitalWrite(LEDG2, HIGH);
+  delay(100);
+  digitalWrite(LEDB1, HIGH);
+  delay(100);
+  digitalWrite(LEDB2, HIGH);
+  delay(100);
+  digitalWrite(LEDB2, LOW);
+  delay(200);
+  digitalWrite(LEDB1, LOW);
+  delay(200);
+  digitalWrite(LEDG2, LOW);
+  delay(200);
+  digitalWrite(LEDG1, LOW);
+  delay(200);
+  digitalWrite(LEDR2, LOW);
+  delay(200);
+  digitalWrite(LEDR1, LOW);
+  delay(200);
+  digitalWrite(LEDY2, LOW);
+  delay(200);
+  digitalWrite(LEDY1,LOW);
+  delay(200);
+  digitalWrite(LEDW1, LOW);
+  delay(200);
+}
